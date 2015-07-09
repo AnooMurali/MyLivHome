@@ -1,78 +1,108 @@
-body
-{
-	background-color: pink;
-	margin: 1px;
-	padding: 10px;
-	border: 1px;
-	font-family: "Helvetica", "sans-serif";
-	font-size: 10pt;
+*{
+/*border: 1px solid black;*/
+
 }
 
-#wrapper {
-	width: auto;
-	height: auto;
-	background-color: white;
-	border-left: 5px solid #a09885;
-	border-right: 5px solid #a09885;
-	overflow: auto;
-	margin: 0 auto;
-	padding:10px;
+header{
+	background-color: #EBDAE9;
+	min-height: 90px;
+	/*position: relative;*/
 }
-#header{
-	width: 100%;
+
+#socialBar{
+	float: right;
+	/*position: absolute;*/
+}
+#main{
+	/*margin-top: 10px;*/
+	background-color: #fff;
+	min-height: 670px;
+	/*margin-bottom: 10px;*/
+
+}
+#column1{
+	width: 80%;
+	background-color: lightblue;
+	float: right;
+	min-height: 650px;
+}
+#gutter1 h4{
+	/*background-color: pink;*/
+	width: 95%;
+	text-indent: 40px;
+}
+#column1 .img{
+	margin-right: 10px;
 	height: 100px;
-	border-bottom: 3px solid #7c7063;
-}
-#logo{
-	float: left;
-	margin: 5px 10px 10px;
-}
-#social{
-	float: right;
-	margin: 20px 30px 0px 0px;
-	height: 25px;
-	width: 55px;
-
-}
-#social ul li{
-	float: right;
-	list-style: none;
-	padding-right: 5px; </* so the images are not close to each other*/>
-}
-#social img{
-	height: 50px;
-	width: 50px;
-}
-#sidenav{
-	float: left;
-	width: 275px;
-	height: 100%;
-}
-#sidemenu{
-	float: left;
-	height: auto;
 	width: 100px;
-	font-family: "Times New Roman";
-	font-size: 16pt;
-	font-weight: bold;
+	border-radius: 50px;
 }
-#sidemenu ul{
+#sidebar{
+	width: 18%;
+	background-color: lightgrey;
 	float: left;
-	height: auto;
-	width: 200px;
+	min-height: 650px;
 }
-#sidemenu ul li{
-	list-style: none;
+#sidebar ul li{
+	margin: 10px;
 	padding: 5px;
+	list-style: none;
+	font-family: helvetica;
+	font-size: 16pt;
+}
+
+
+footer{
+	background-color: #212024;
+	min-height: 30px;
+	color: #fff;
+	font-family: helvetica;
+	font-size: 14pt;
+	font-style: normal;
 	text-align: center;
 }
-#sidemenu ul li a{
-	background-color: #cbbb9b;
-	color: #4e4f3e;
-	text-decoration: none;
-	padding: 10px 0px;
-	display: block;
+/*--------------------------------------------------------------------------------
+-------todayDateTime page---------------------------------------------------------
+--------------------------------------------------------------------------------*/
+#main2{
+	background-color: #EBDAE9;
+	margin: 10px;
 }
-#sidemenu ul li a:hover {
-	color: #fff;
+
+#compTitle{
+	height: 200px;
+	margin: 10px;
+	font-family: helvetica;
+	font-size: 26pt; 
+	font-weight: bolder;
+	text-align: center;
 }
+#greeting {
+    margin: 25px 25px 25px 25px;
+    border: 5px solid darkblue;
+    /*height: 50px;*/
+    /*width: 60px;*/
+    font-family: helvetica;
+	font-size: 26pt; 
+	font-weight: bolder;
+	text-align: center;
+}
+#column1 h1{
+	/*margin-top: 60px;*/
+	font-family: helvetica;
+	font-size: 16pt;
+	text-align: left;
+}
+#column1 p{
+	/*margin-top: 50px;*/
+	font-family: helvetica;
+	font-size: 16pt;
+	
+}
+#sidebar2{
+	width: 10%;
+	background-color: lightgrey;
+	float: right;
+	min-height: 650px;
+}
+
